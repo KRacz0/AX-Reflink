@@ -1,0 +1,26 @@
+name: AX-Reflink
+version: '1.0'
+main: me.aixo.axreflink.AxReferral
+api-version: '1.19'
+author: aix0
+
+commands:
+  reflink:
+    description: Otworz system partnerski.
+    usage: /<command> [player_name|reload]
+    permission: axreflink.reflink
+    permission-message: Nie masz permisji.
+
+permissions:
+  axreflink.reflink:
+    description: Allows the use of the /reflink command.
+    default: true
+  axreflink.reload:
+    description: Allows the use of the /reflink reload command.
+    default: op
+
+
+
+
+
+

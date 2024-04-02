@@ -1,0 +1,6 @@
+me\aixo\axreflink\commands\ReferralCommand.class
+me\aixo\axreflink\gui\ReferralGUI.class
+me\aixo\axreflink\listeners\InventoryClickListener.class
+me\aixo\axreflink\database\DatabaseManager.class
+me\aixo\axreflink\listeners\PlayerJoinListener.class
+me\aixo\axreflink\AxReferral.class

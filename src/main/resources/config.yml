@@ -1,0 +1,39 @@
+database:
+  host: "localhost"
+  port: 3306
+  name: "minecraft"
+  username: "root"
+  password: "password"
+
+empty-slot-item: "WHITE_STAINED_GLASS_PANE"
+referral-reward-command: "give %player% diamond 5"
+
+rewards:
+  - requiredReferrals: 0
+    name: "Początkujący X"
+    slot: 10
+    lore: "Zdobądź 0 osób które użyją twojego reflinka i dobierz nagrodę!"
+    commands:
+      - "give %player% diamond 10"
+      - "say %player% właśnie odblokował Początkujący Mid!"
+  - requiredReferrals: 1
+    name: "Początkujący X"
+    slot: 11
+    lore: "Zdobądź 1 osób które użyją twojego reflinka i dobierz nagrodę!"
+    commands:
+      - "give %player% diamond 10"
+      - "say %player% właśnie odblokował Początkujący Mid!"
+  - requiredReferrals: 5
+    name: "Początkujący X"
+    slot: 12
+    lore: "Zdobądź 5 osób które użyją twojego reflinka i dobierz nagrodę!"
+    commands:
+      - "give %player% diamond 10"
+      - "say %player% właśnie odblokował Początkujący Mid!"
+  - requiredReferrals: 10
+    name: "Początkujący X"
+    slot: 13
+    lore: "Zdobądź 10 osób które użyją twojego reflinka i dobierz nagrodę!"
+    commands:
+      - "give %player% diamond 10"
+      - "say %player% właśnie odblokował Początkujący Mid!"
